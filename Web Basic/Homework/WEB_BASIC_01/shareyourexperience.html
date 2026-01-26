@@ -10,7 +10,7 @@
 <body>
 
     <section>
-        <form action="home.html">
+        <form>
             <fieldset>
                 <legend>Share your experienced with us</legend>
 
@@ -18,7 +18,7 @@
                     <tr>
                         <td>
                             <label for="fname">Full Name : </label>
-                            <input type="text" name="fname" id="fname" placeholder="Preap Sovath">
+                            <input type="text" name="fname" id="fname" placeholder="Preap Sovath" required>
                         </td>
                     </tr>
 
@@ -27,10 +27,10 @@
                             <label for="gender">Gender :</label>
 
 
-                            <input type="radio" name="gender" value="male" id="male">
+                            <input type="radio" name="gender" value="male" id="male" required>
                             <label for="male">Male</label>
 
-                            <input type="radio" name="gender" value="female" id="female">
+                            <input type="radio" name="gender" value="female" id="female" required>
                             <label for="female">Female</label>
                         </td>
                     </tr>
@@ -39,7 +39,7 @@
                         <td height="40">
                             <label for="phone_number">Phone Number : +855</label>
                             <input type="tel" name="phone_number" id="phone_number" placeholder="12 345 678"
-                                pattern="[0-9]{2} [0-9]{3} [0-9]{3}">
+                                pattern="[0-9]{2} [0-9]{3} [0-9]{3}" required>
                             <span><mark>Format: 12 345 678</mark></span>
                         </td>
                     </tr>
@@ -47,7 +47,7 @@
                     <tr>
                         <td height="40">
                             <label for="email">Email :</label>
-                            <input type="email" name="email" id="email" placeholder="someone@gmail.com">
+                            <input type="email" name="email" id="email" placeholder="someone@gmail.com" required>
                         </td>
                     </tr>
 
@@ -55,13 +55,13 @@
                         <td>
                             <p>Where do you find Us ?</p>
 
-                            <input type="checkbox" name="fb" id="fb" value="facebook">
+                            <input type="checkbox" name="find-us" id="fb" value="facebook">
                             <label for="fb">Facebook</label>
 
-                            <input type="checkbox" name="friend" id="friend" value="friend">
+                            <input type="checkbox" name="find-us" id="friend" value="friend">
                             <label for="fb">Friend or Relative</label>
 
-                            <input type="checkbox" name="other" id="other" value="Other">
+                            <input type="checkbox" name="find-us" id="other" value="Other">
                             <label for="fb">Facebook</label>
                         </td>
                     </tr>

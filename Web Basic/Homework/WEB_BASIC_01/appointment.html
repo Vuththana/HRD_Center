@@ -65,8 +65,8 @@
           <tr>
             <td>
               <label for="firstName">Full Name :</label>
-              <input type="text" name="firstName" id="firstName" placeholder="Chan"> |
-              <input type="text" name="lastName" id="lastName" placeholder="Mony">
+              <input type="text" name="firstName" id="firstName" placeholder="Chan" required> |
+              <input type="text" name="lastName" id="lastName" placeholder="Mony" required>
             </td>
           </tr>
 
@@ -74,10 +74,10 @@
             <td height="40">
               <label for="decision">Is it your first time visit :</label>
 
-              <input type="radio" name="decision" id="yes" value="yes">
+              <input type="radio" name="decision" id="yes" value="yes" required>
               <label for="yes">Yes</label>
 
-              <input type="radio" name="decision" id="no" value="no">
+              <input type="radio" name="decision" id="no" value="no" required>
               <label for="yes">No</label>
             </td>
           </tr>
@@ -85,7 +85,7 @@
           <tr>
             <td height="40">
               <label for="email">Email :</label>
-              <input type="email" name="email" id="email" placeholder="someone@gmail.com">
+              <input type="email" name="email" id="email" placeholder="someone@gmail.com" required>
             </td>
           </tr>
 
@@ -93,7 +93,7 @@
             <td height="40">
               <label for="phone_number">Phone Number :</label>
               <input type="tel" name="phone_number" id="phone_number" placeholder="12 123 123"
-                pattern="[0-9]{2} [0-9]{3} [0-9]{3}">
+                pattern="[0-9]{2} [0-9]{3} [0-9]{3}" required>
               <span><mark>Format: 12 122 122</mark></span>
             </td>
           </tr>
@@ -101,28 +101,28 @@
           <tr>
             <td height="40">
               <label for="date">Date of appointment :</label>
-              <input type="date" name="date_of_appointment" id="date_of_appointment">
+              <input type="datetime-local" name="date_of_appointment" id="date_of_appointment" required>
             </td>
           </tr>
 
           <tr>
             <td height="40">
               <label for="time_of_appointment">What time for appointment ?</label>
-              <input type="time" name="time_of_appointment" id="time_of_appointment">
+              <input type="time" name="time_of_appointment" id="time_of_appointment" required>
             </td>
           </tr>
 
           <tr>
             <td height="40">
               <label for="week_unable_attend">Please select the week if you are unable to attend :</label>
-              <input type="week" name="week_unable_attend" id="week_unable_attend">
+              <input type="week" name="week_unable_attend" id="week_unable_attend" required>
             </td>
           </tr>
 
           <tr>
             <td height="40">
               <p>Do you like our service ?</p>
-              <input type="range">
+              <input type="range" required>
             </td>
           </tr>
 

@@ -13,8 +13,10 @@ void main() {
     System.out.print("Enter your monthly electricity usage(kWh): ");
     String electricityUsage = scanner.nextLine();
 
-    float convertedElectricityUsage = electricityUsage.matches("^\\d+(\\.\\d+)?$") ? Float.parseFloat(electricityUsage) : 0;
-    float totalCost = convertedElectricityUsage <= 50 ? convertedElectricityUsage * low : (convertedElectricityUsage - 50) * high + (50 * low);
+    float convertedElectricityUsage = electricityUsage.matches("^\\d+(\\.\\d+)?$") ?
+            Float.parseFloat(electricityUsage) : 0;
+    float totalCost = convertedElectricityUsage <= 50 ?
+            convertedElectricityUsage * low : (convertedElectricityUsage - 50) * high + (50 * low);
 
     System.out.printf("Your total electricity cost per month: %.2f\n", totalCost);
 
@@ -48,7 +50,7 @@ void main() {
     /* Validation */
 
     // Employee ID
-    String id = employeeId.matches("^[1-9]+[0-9]{2,}$") ? // checks if they input 3 digits not 2 digits
+    String id = employeeId.matches("^[1-9]+[0-9]{2,}$") ? // I don't need to check if the input is 100 greater
             employeeId : "INVALID_ID";
 
     // Employee Name
@@ -61,14 +63,17 @@ void main() {
             Integer.parseInt(employeeAge) <= 60 ? // Check if the employee age is less than 60
                     Integer.parseInt(employeeAge) : 0 : 0 : 0;
 
+    // Employee Job Type
+    String type = employeeType.equalsIgnoreCase(JobType.FULL_TIME.toString()) ? JobType.FULL_TIME.toString() :
+            employeeType.equalsIgnoreCase(JobType.PART_TIME.toString()) ? JobType.PART_TIME.toString() : null;
+
     // Employee Salary
     float salary = employeeSalary.matches("^[1-9]\\d+$") ? // Checks the input to match with numbers only
             Float.parseFloat(employeeSalary) : 0f;
 
     // Employee Final salary
     Float finalSalary = employeeType.equalsIgnoreCase(JobType.FULL_TIME.toString()) ?
-            Float.valueOf(salary * 1f) // We need the method valueOf() or else NullExceptionError will occur
-            : employeeType.equalsIgnoreCase(JobType.PART_TIME.toString()) ? salary * 0.6f : null;
+            salary * 1f : employeeType.equalsIgnoreCase(JobType.PART_TIME.toString()) ? salary * 0.6f : 0;
 
 
 
@@ -80,8 +85,8 @@ void main() {
     System.out.println("Employee ID: " + id);
     System.out.println("Name: " + name);
     System.out.println("Age: " + age);
+    System.out.println("Job Type: " + type);
     System.out.println("Original Salary: " + salary);
     System.out.println("Final Salary(rounded): " + finalSalary);
     System.out.println("Employee Email: " + email);
-
 }

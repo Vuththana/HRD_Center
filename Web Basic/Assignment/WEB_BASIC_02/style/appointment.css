@@ -1,0 +1,93 @@
+* {
+    color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 20px;
+    background: no-repeat url("https://imgs.search.brave.com/ou9Ylx1l9-c_QjU-l-ZaSIwgZPrm2-e8VjoIgo3IWNo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNDg0/NzQ2NjI3L3Bob3Rv/L3Bobm9tLXBlbmgt/YnktbmlnaHQuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPS1I/cFd4ellwdWZzd01M/ZXRNbDVhVWltRlVh/MEJKSm1ibDMwQUU5/Qmw1aE09");
+    background-size: cover;
+}
+
+nav {
+    background-color: rgba(106, 106, 106, 0.4);
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+.nav-links a {
+    color: rgb(0, 157, 255);
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#main-form {
+    margin-top: 50px;
+    border: 1px solid transparent;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(121, 121, 121, 0.4);
+    border: 2px solid cyan;
+    box-shadow: -3px 3px cyan;
+    color: white;
+}
+
+#main-form input{
+    color:white;
+}
+
+#main-form input::placeholder {
+    color: white;
+}
+
+#main-form input {
+    background-color: rgba(67, 66, 66, 0.2);
+    padding: 15px;
+    border: 0px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px black;
+}
+
+#main-form input[type="email"] {
+    direction: rtl;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0px;
+}
+
+#main-form input[type="date"] {
+    color: white;
+}
+
+#reset {
+    color: darkorange;
+    width: 100px;
+    background-color: rgba(242, 242, 21, 0.4);
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid yellow;
+    box-shadow: 3px -3px;
+    margin-right: 10px;;
+    font-weight: 600;
+}
+
+#submit {
+    color: darkgreen;
+    width: 100px;
+    background-color: rgba(0, 255, 0, 0.4);
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid green;
+    box-shadow: 3px 3px;
+    font-weight: 600;
+}
+
+#reset:hover {
+    background-color: rgba(242, 242, 21, 1);
+}
+
+#submit:hover {
+        background-color: rgba(0, 255, 0, 1);
+}

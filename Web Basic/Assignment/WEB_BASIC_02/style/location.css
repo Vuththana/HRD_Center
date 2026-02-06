@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 20px;
+    background: no-repeat url("https://imgs.search.brave.com/gsnT1bizR-R7XpyN-odCdwKE8sWtsG5RoY3Ba4AwpGk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTIx/OTEwNzY2L3Bob3Rv/L3B5b25neWFuZy1u/b3J0aC1rb3JlYS12/aWV3LW9mLXRoZS1q/dWNoZS10b3dlci1h/bmQtdGFlZG9uZy1y/aXZlci1hdC1uaWdo/dC1weW9uZ2FuLXBy/b3ZpbmNlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1ORjlG/emRsaGRjTXJiZ0pJ/Z2p6c0gtbWs4Zk9J/eG1FeE83RWhWZm9G/akpRPQ");
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+p, a {
+    color: rgb(0, 157, 255);
+    font-weight: 600;
+}
+
+nav {
+    background-color: rgba(106, 106, 106, 0.2);
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+.nav-links a {
+    color: rgb(0, 157, 255);
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#location {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: rgba(121, 121, 121, 0.4);
+    border: 5px solid dodgerblue;
+    border-radius: 10px;
+    border-spacing: 10px;
+}
+
+#contact {
+    color: dodgerblue;
+}
+
+#our-location {
+    color: dodgerblue;
+}
+
+#contact:hover {
+    color: purple;
+    box-shadow: -3px -3px purple;
+}
+
+#our-location:hover {
+    color: purple;
+    box-shadow: -3px -3px purple;
+}
+
+th {
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+    box-shadow: -3px -3px;
+}
+
+#location th {
+    background-color: rgba(161, 161, 161, 0.8);
+}
+
+#location td {
+    border: 0px;
+}
+
+#location iframe {
+    border-radius: 10px;
+}
+
+#location a:hover {
+    background-color: dodgerblue;
+    color: white;
+}

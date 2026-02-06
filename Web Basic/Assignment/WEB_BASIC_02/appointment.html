@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./style/appointment.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <table align="center">
+        <tr align="center">
+          <td class="nav-links">
+            <a href="home.html">Home |</a>
+            <a href="appointment.html">Appointment |</a>
+            <a href="location.html">Location</a>
+          </td>
+        </tr>
+      </table>
+    </nav>
+  </header>
+
+  <section>
+
+    <form action="#">
+        <table id="main-form" align="center">
+          <tr align="left">
+            <th><p style="font-size: 30px; margin: 0;">Appointment Form</p></th>
+          </tr>
+          <tr>
+            <td>
+              <label for="firstName">Full Name :</label>
+              <input type="text" name="firstName" id="firstName" placeholder="Chan" required> |
+              <input type="text" name="lastName" id="lastName" placeholder="Mony" required>
+            </td>
+          </tr>
+
+          <tr  height="30">
+            <td height="40">
+              <label for="decision">Is it your first time visit :</label>
+
+              <input type="radio" name="decision" id="yes" value="yes" required>
+              <label for="yes">Yes</label>
+
+              <input type="radio" name="decision" id="no" value="no" required>
+              <label for="yes">No</label>
+            </td>
+          </tr>
+
+          <tr  height="30">
+            <td height="40">
+              <label for="email">Email :</label>
+              <input type="email" name="email" id="email" placeholder="someone@gmail.com" required>
+            </td>
+          </tr>
+
+          <tr  height="30">
+            <td height="40">
+              <label for="phone_number">Phone Number :</label>
+              <input type="tel" name="phone_number" id="phone_number" placeholder="12 123 123"
+                pattern="[0-9]{2} [0-9]{3} [0-9]{3}" required>
+            </td>
+          </tr>
+
+          <tr  height="30">
+            <td height="40">
+              <label for="date">Date of appointment :</label>
+              <input type="datetime-local" name="date_of_appointment" id="date_of_appointment" required>
+            </td>
+          </tr>
+
+          <tr>
+            <td height="40">
+              <label for="time_of_appointment">What time for appointment ?</label>
+              <input type="time" name="time_of_appointment" id="time_of_appointment" required>
+            </td>
+          </tr>
+
+          <tr  height="30">
+            <td height="40">
+              <label for="week_unable_attend">Please select the week if you are unable to attend :</label>
+              <input type="week" name="week_unable_attend" id="week_unable_attend" required>
+            </td>
+          </tr>
+
+          <tr>
+            <td height="40">
+              <p>Do you like our service ?</p>
+              <input type="range">
+            </td>
+          </tr>
+
+          <tr  height="30">
+            <td height="30">
+              <button type="reset" id="reset">Reset</button>
+              <button type="submit" id="submit">Submit</button>
+            </td>
+          </tr>
+        </table>
+    </form>
+  </section>
+</body>
+
+</html>

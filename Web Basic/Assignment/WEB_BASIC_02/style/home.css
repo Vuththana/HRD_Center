@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 20px;
+}
+
+p {
+    margin: 0;
+}
+
+
+nav {
+    padding: 10px 0px;
+}
+
+.nav-links a {
+    color: rgb(0, 157, 255);
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+    
+.title {
+    color: rgb(0, 157, 255);
+    font-size: 32px;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+.images td#building-image {
+    background: no-repeat url("../images/building.jpg");
+    background-size: 100% 300px;
+    height: 300px;
+    border: 5px solid dodgerblue;
+    border-radius: 20px 0px;
+    box-shadow: 15px 5px 20px lightblue;
+}
+
+.images td#operation-image {
+    background: no-repeat url("../images/operation.jpg");
+    background-size: 100% 300px;
+    height: 300px;
+    border: 5px solid dodgerblue;
+    border-radius: 20px 0px;
+    box-shadow: 15px 5px 20px lightblue;
+}
+
+.images td#hall-image {
+    background: no-repeat url("../images/hall.jpg");
+    background-size: 100% 300px;
+    height: 300px;
+    border: 5px solid dodgerblue;
+    border-radius: 20px 0px;
+    box-shadow: 15px 5px 20px lightblue;
+}
+
+.images td#building-image:hover {
+    background: rgba(0, 0, 0, 0.6) no-repeat url("../images/building.jpg");
+    background-size: 100% 300px;
+    background-blend-mode: overlay;
+}
+.images td#operation-image:hover {
+    background: rgba(0, 0, 0, 0.6) no-repeat url("../images/operation.jpg");
+    background-size: 100% 300px;
+    background-blend-mode: overlay;
+}
+.images td#hall-image:hover {
+    background: rgba(0, 0, 0, 0.6) no-repeat url("../images/hall.jpg");
+    background-size: 100% 300px;
+    background-blend-mode: overlay;
+}
+
+.doctors {
+    width: 100%;
+    text-align: center;
+    border-spacing: 4px;
+}
+
+.doctors tr th {
+    padding: 6px;
+    background-color: rgb(81, 226, 255);
+    border: 2px solid rgb(127, 191, 255);
+    color:rgb(0, 89, 255);
+    border-radius: 10px;
+}
+
+.doctors tr td {
+    padding: 2px;
+    background-color: rgb(145, 233, 249, 0.7);
+    border: 2px solid rgb(145, 233, 249);
+    color:rgb(0, 89, 255);
+    border-radius: 10px;
+}
+
+.department-list div {
+    width: 350px;
+    height: 300px;
+    padding: 0px 10px;
+}
+
+.department-list div h3{
+    text-align: center;
+    border-bottom: 1px solid blue;
+}
+
+.department-list div p {
+    text-indent: 10px;
+    text-align: justify;
+}
+
+.department-list div#department-cardiology{
+    border: 2px solid blue;
+    border-radius: 10px;
+    border-right: 10px solid blue;
+}
+
+.department-list div#department-cardiology{
+    background-color: lightblue;
+}
+
+.department-list div#department-cardiology h3{
+    color: blue;
+    font-weight: 800;
+}
+
+.department-list div#department-prediatrics{
+    border: 2px solid green;
+    border-radius: 10px;
+    border-right: 10px solid green;
+}
+
+.department-list div#department-prediatrics{
+    background-color: lightgreen;
+}
+
+.department-list div#department-prediatrics h3{
+    color: green;
+    font-weight: 800;
+}
+.department-list div#department-general-surgery{
+    border: 2px solid orange;
+    border-radius: 10px;
+    border-right: 10px solid orange;
+}
+
+.department-list div#department-general-surgery{
+    background-color: yellow;
+}
+
+.department-list div#department-general-surgery h3{
+    color: orange;
+    font-weight: 800;
+}
+
+.department-list div#department-internal-machine{
+    border: 2px solid purple;
+    border-radius: 10px;
+    border-right: 10px solid purple;
+}
+
+.department-list div#department-internal-machine{
+    background-color:lightpink;
+}
+
+.department-list div#department-internal-machine h3{
+    color: purple;
+    font-weight: 800;
+}
+
+footer table {
+    background-color: rgb(0, 157, 255);
+    height: 200px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+footer a, footer i {
+    text-decoration: none;
+    color: white;
+}

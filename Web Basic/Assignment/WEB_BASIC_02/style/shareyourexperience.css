@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: no-repeat url("https://imgs.search.brave.com/UGvjbr7qc4uGyQkSicxEidevyW80V4L455ZIJSipYRs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vd3d3LnRy/YWlsaW5ncmFjaGVs/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxNi8xMC9TaWVt/LVJlYXAtYW5kLXRo/ZS1SZWFsaXR5LUJl/aGluZC1NeS1WaXNp/dC10by1Bbmdrb3It/V2F0LTE5LmpwZz9y/ZXNpemU9NzUwLDUw/MA");
+    background-size: cover;
+}
+
+.share-form table#main-form {
+    margin-top: 50px;
+    border: 1px solid transparent;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 81, 255, 0.9);
+    color: black;
+}
+
+.share-form input::placeholder {
+    color: black;
+}
+
+.share-form input {
+    border-radius: 5px;
+    padding: 10px;
+    border: 0px;
+    background-color: dodgerblue;
+}
+
+.share-form input[type="email"] {
+    direction: rtl;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0px;
+    background-color: dodgerblue;
+}
+
+.share-form textarea {
+    direction: rtl;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0px;
+}
+
+#reset {
+    color: orange;
+    background-color: yellow;
+    width: 160px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid yellow;
+    box-shadow: 3px -3px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#submit {
+    color: greenyellow;
+    background-color: green;
+    width: 160px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid green;
+    box-shadow: 3px 3px;
+    font-size: 18px;
+}
+
+#submit:hover {
+    opacity: 0.8;
+}
+
+#back-home{
+    text-decoration: none;
+    color: red;
+    width: 160px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 3px 3px;
+    background-color: lightcoral;
+}

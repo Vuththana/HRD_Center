@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+        <div class="nav_logo">Sunrise Care</div>
+        <ul class="nav_links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#approach">Our Approach</a></li>
+          <li><a href="#goal">Our Goals</a></li>
+        </ul>
+        <div>
+          <ul class="nav_icons">
+            <li><svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  color="var(--main-color)"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="lucide lucide-phone-icon lucide-phone"
+  >
+    <path
+    d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+  />
+  </svg></li>
+            <li>
+              <i class="fa-regular fa-bell" id="notification_icon"
+                ><div></div
+              ></i>
+            </li>
+          </ul>
+        </div>
+        <div class="nav_profile">
+          <span>Judy T.</span>
+          <img
+            width="50px"
+            height="50px"
+            src="/src/images/judy-image.png"
+            alt="Profile"
+          />
+        </div>
+    </nav>
+
+    <div class="container">
+      <section id="home">
+        <div class="hero">
+
+          <div class="hero-1">
+                <div class="hero-image">
+                  <div></div>
+                </div>
+                  <p class="doctor-name">Dr. Jonh Wick</p>
+                <div class="divider">
+                  <div class="dot1"></div>
+                  <div class="line"></div>
+                  <div class="dot2"></div>
+                </div>
+                <div class="lab">
+                  <p>Labs</p>
+                  <div>
+                    <ul class="lab-list">
+                      <li>Cinical blood count</li>
+                      <li>Biochemical Blood</li>
+                      <li>Infection marker</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="reabilitation">
+                  <div class="reabilitation-arrow">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32"
+                      height="32"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right"
+                    >
+                      <path d="M7 7h10v10" />
+                      <path d="M7 17 17 7" />
+                    </svg>
+                  </div>
+                  <p class="reabilitation-title">Reabilitation Plan</p>
+                  <div class="reabilitation-content">
+                    <p>Wrist post surgery</p>
+                    <p>12:00PM</p>
+                  </div>
+                </div>
+          </div>
+          <div class="hero-2">
+            <div class="hero-text">
+                <p class="text1">Your <span>path</span></p>
+                <p class="text2"><span>to</span> <span class="arrows">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right"
+                  >
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" /></svg>
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="34"
+                    height="34"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right"
+                  >
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" /></svg>
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="52"
+                    height="52"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right"
+                  >
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" /></svg></span
+                > health
+                <span class="border"></span></p>
+              </div>
+              <div class="plan-schedule">
+                <p class="plan-schedule-title">Plan Schedule</p>
+                  <!-- Next month card -->
+                   <div class="middle-card-top">
+                    <div class="middle-top-card-content">
+                        <div class="middle-top-card-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--main-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-calendar-days-icon lucide-calendar-days">
+                            <path d="M8 2v4" />
+                            <path d="M16 2v4" />
+                            <rect width="18" height="18" x="3" y="4" rx="2" />
+                            <path d="M3 10h18" />
+                            <path d="M8 14h.01" />
+                            <path d="M12 14h.01" />
+                            <path d="M16 14h.01" />
+                            <path d="M8 18h.01" />
+                            <path d="M12 18h.01" />
+                            <path d="M16 18h.01" />
+                        </svg>
+                        <div>
+                            <h4>Next month</h4>
+                            <p>Dr. Emily Amanda</p>
+                        </div>
+                        </div>
+
+                        <div class="middle-top-card-bottom">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--main-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-arrow-left-icon lucide-arrow-left">
+                            <path d="m12 19-7-7 7-7" />
+                            <path d="M19 12H5" />
+                        </svg>
+
+                        <p>2 November</p>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--main-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-arrow-right-icon lucide-arrow-right">
+                            <path d="M5 12h14" />
+                            <path d="m12 5 7 7-7 7" />
+                        </svg>
+                        </div>
+                    </div>
+                    <div class="middle-top-card-content">
+                        <div class="middle-top-card-text">
+                          <svg viewBox="0 0 24 24" fill="none" 
+                          xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0">
+                          </g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                          <g id="SVGRepo_iconCarrier"> 
+                          <path d="M10 13L14 17M14 13L10 17M3 9H21M7 3V5M17 3V5M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z"
+                           stroke="var(--main-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> 
+                          </g></svg>
+                        <div>
+                            <h4>Missed Days</h4>
+                            <p>Check in</p>
+                        </div>
+                        </div>
+
+                        <div class="middle-top-card-bottom">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--main-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-arrow-left-icon lucide-arrow-left">
+                            <path d="m12 19-7-7 7-7" />
+                            <path d="M19 12H5" />
+                        </svg>
+
+                        <p>2 October</p>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--main-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-arrow-right-icon lucide-arrow-right">
+                            <path d="M5 12h14" />
+                            <path d="m12 5 7 7-7 7" />
+                        </svg>
+                        </div>
+                    </div>
+                   </div>
+                   <div class="middle-card-bottom">
+                    <div class="middle-main-card-content-card">
+                        <div>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-pill-icon lucide-pill">
+                            <path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z" />
+                            <path d="m8.5 8.5 7 7" />
+                          </svg>
+                        </div>
+                        <div>
+                          <h4>Aspirin</h4>
+                          <p>120m, Daily</p>
+                        </div>
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="var(--main-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-zap-icon lucide-zap">
+                            <path
+                              d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z" />
+                          </svg>
+                        </div>
+
+                    </div>
+
+                    <div class="middle-main-card-content-card"  style="margin-right: 200px;">
+                      <div>
+                          <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-map-pin-icon lucide-map-pin"
+                        >
+                          <path
+                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                          />
+                          <circle cx="12" cy="10" r="3" />
+                        </svg>
+                      </div>
+                      <div>
+                      </div>
+                      <div class="icon" style="background-color: var(--main-color);">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-plus-icon lucide-plus"
+                        >
+                          <path d="M5 12h14" />
+                          <path d="M12 5v14" />
+                        </svg>
+                      </div>
+
+                  </div>
+                  </div>
+
+                  <div class="middle-card-bottom">
+                    <div class="middle-main-card-content-card-bottom"  style="margin: -25px 0px 0px 80px;">
+                        <div>
+                          <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-heart-pulse-icon lucide-heart-pulse"
+                        >
+                          <path
+                            d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"
+                          />
+                          <path d="M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27" />
+                        </svg>
+                        </div>
+                        <div>
+                          <h4>Screening</h4>
+                          <p>Dr. Waltor Jack</p>
+                        </div>
+                        <div class="icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="var(--main-color)"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-soup-icon lucide-soup"
+                          >
+                            <path d="M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9Z" />
+                            <path d="M7 21h10" />
+                            <path d="M19.5 12 22 6" />
+                            <path
+                              d="M16.25 3c.27.1.8.53.75 1.36-.06.83-.93 1.2-1 2.02-.05.78.34 1.24.73 1.62"
+                            />
+                            <path
+                              d="M11.25 3c.27.1.8.53.74 1.36-.05.83-.93 1.2-.98 2.02-.06.78.33 1.24.72 1.62"
+                            />
+                            <path
+                              d="M6.25 3c.27.1.8.53.75 1.36-.06.83-.93 1.2-1 2.02-.05.78.34 1.24.74 1.62"
+                            />
+                          </svg>
+                        </div>
+
+                    </div>
+
+                    <div class="middle-card-alert" style="margin: -25px 20px 0px 0px; background: white;">
+                      <div class="title">
+                        <p>Alerting</p>
+                        <p>Don't miss it</p>
+                      </div>
+                      <div class="middle-main-card-content-card-bottom" id="alert-card">
+                        <div id="last-bottom-card">
+                           
+                        </div>
+                        <div>
+                            <p style="color: black;"
+                            >2 December</p>
+                        </div>
+                        <div class="icon" style="border: 0px;">
+                          <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="32"
+                          height="32"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="var(--main-color)"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-arrow-right-icon lucide-arrow-right"
+                        >
+                          <path d="M5 12h14" />
+                          <path d="m12 5 7 7-7 7" />
+                        </svg>
+                        </div>
+  
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="dot">
+                    <div class="second"></div>
+                    <div class="first"></div><div class="second"></div>
+                    <div class="first"></div><div class="second"></div>        
+                    <div class="first"></div><div class="second"></div>        
+                    <div class="first"></div><div class="second"></div>        
+                    <div class="first"></div><div class="second"></div>        
+                    <div class="first"></div><div class="second"></div>
+                    <div class="first"></div><div class="second"></div>
+                    <div class="first"></div><div class="second"></div>        
+                    <div class="first"></div><div class="second"></div>        
+                    <div class="first"></div><div class="second"></div>        
+                    <div class="first"></div><div class="second"></div>
+                </div>
+              </div>
+          </div>
+
+          <div class="hero-3">
+            <div class="hero-latest-visited">
+              <div class="hero-doctors">
+                <div class="hero-latest-visted-text">
+                    <p>Latest visited</p>
+                    <p>Wrist post surgery</p>
+                </div>
+                <div class="hero-latest-visited-images">
+                  <div class="doctor-1"></div>
+                  <div class="doctor-2"></div>
+                  <div class="doctor-3"></div>
+                </div>
+              </div>
+
+              <div class="hero-latest-visited-more">
+                  <p>
+                      <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32"
+                      height="32"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right"
+                    >
+                      <path d="M7 7h10v10" />
+                      <path d="M7 17 17 7" /></svg>
+                  </p>
+                      + 3 more
+              </div>
+          </div>
+          <div class="hero-hand">
+            <div class="slides">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <p>Appointment</p>
+            <div class="play-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="var(--main-color)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-pause-icon lucide-pause"
+              >
+                <rect x="14" y="3" width="5" height="18" rx="1" />
+                <rect x="5" y="3" width="5" height="18" rx="1" />
+              </svg>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section style="margin-top: 120px;" id="approach">
+        <div class="approach">
+          <p class="approach-title">Our Approach</p>
+          <div class="metapolis">
+            <p><span>At Metapolis,</span> We have</p>
+            <p>Developed a service using in-</p>
+            <p>house manufactured materials.</p>
+          </div>
+          <div class="button">
+            <p>&gt;</p>
+            <p>&lt;</p>
+          </div>
+        </div>
+        <div class="card-carousel">
+          <div class="card">
+            <div class="card-title">
+              <p>01</p>
+              <p>Probiotics</p>
+            </div>
+            <div class="more-info">
+              <p>More Info</p>
+            </div>
+            <div class="card-description">
+              <p>Support your gut health by balancing the natural microbiata, enhancing both your digestion and immune response.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-title">
+              <p>02</p>
+              <p>Vitamins</p>
+            </div>
+            <div class="more-info">
+              <p>More Info</p>
+            </div>
+            <div class="card-description">
+              <p>Essential miconutrients that boister bone density, improve skin elasticity, and convert food into sustainable energy.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-title">
+              <p>03</p>
+              <p>Omega-3</p>
+            </div>
+            <div class="more-info">
+              <p>More Info</p>
+            </div>
+            <div class="card-description">
+              <p>Powerful fatty acids that contribute to cognitive function, cardiovascular health, and the reduction of internal inflamination.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section style="margin-top: 120px;" id="goal">
+        <div class="goal">
+          <p class="goal-title">Our Goals</p>
+          <div class="our-goal">
+            <p>Toward a healthy future.</p>
+            <p><span>Our goals</span> are your health</p>
+            <p>and better medicine</p>
+          </div>
+          <div></div>
+        </div>
+        <div class="circle">
+          <div class="circle-1">
+            <div class="upper-circle">
+              <p>Improving accessibility and quality of medical services</p>
+            </div>
+            <div class="middle-line"></div>
+            <div class="under-circle">
+              <p>Ensuring accessibility of medical care for oil segments of the population</p>
+            </div>
+          </div>
+
+          <div class="circle-2">
+            <div class="upper-circle">
+              <p>Improving healthcare quality through innovation and professional excellence</p>
+            </div>
+            <div class="middle-line"></div>
+            <div class="under-circle">
+              <p>Ensuring continuous improvement in healthcare delivery and patient safety</p>
+            </div>
+          </div>
+
+          <div class="circle-3">
+            <div class="upper-circle">
+              <p>Strengthening healthcare systems to ensure equitable and inclusive access</p>
+            </div>
+            <div class="middle-line"></div>
+            <div class="under-circle">
+              <p>Ensuring equitable access to quality medical care for all communities</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

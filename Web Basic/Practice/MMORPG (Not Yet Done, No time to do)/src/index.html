@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goros-MMORPG</title>
+
+    <link rel="stylesheet" href="output.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-oswald">
+    <div class="w-full h-screen">
+        <form action="#" id="form" class="text-[18px] flex flex-col items-center gap-[40px]">
+            <div class="text-center">
+                <p class="text-[50px]">Registration</p>
+            </div>
+            <div class="grid grid-cols-2">
+                <label for="name">Enter your username: </label>
+                <input type="text" id="username" class="border-2">
+            </div>
+            <div class="grid grid-cols-2">
+                <label for="email">Enter your Email: </label>
+                <input type="email" id="email" class="border-2">
+            </div>
+
+            <div class="grid grid-cols-2">
+                <label for="password">Enter your Password: </label>
+                <input type="password" id="password" class="border-2">
+            </div>
+
+            <div class="grid grid-cols-2">
+                <label for="confirm-password">Confirm Password: </label>
+                <input type="password" id="confirm-password" class="border-2">
+            </div>
+            <div>
+                <button id="registration_submit" class="border-black border-2 px-[12px] py-[6px]">Register</button>
+            </div>
+        </form>
+    </div>
+
+    <p></p>
+    <script type="module" src="js/script.js"></script>
+</body>
+
+</html>
